@@ -127,6 +127,47 @@ console.log('contador6 =',contador6);
 contador6 *= passo2;
 console.log('contador6 =',contador6);
 
+console.log();
+
+console.log('Uando operador de potênciação:');
+let contador7 = 2;
+contador7 **= 10;
+console.log('contador7 =',contador7)
+
+console.log();
+console.log('Cuidade com oque coloca como valores para variáveis:');
+const num15 = 10;
+const num16 = 'Tiago';
+let result = num15 * num16; // Resultado vai ser NaN, pq variável num16 é uma string
+console.log('resultado =',result);
+
+console.log();
+
+const num17 = 10;
+const num18 = '5';
+let result1 = num17 * num18; //Resultado vai ser 50,pq ele transforma num18 que é uma String em Number(número)
+console.log('resultado1 =',result1);
+
+console.log();
+
+console.log('Exe1:');
+const num19 = 10;
+const num20 = parseInt ('5');//Uso do parseInt para transformar String em Number (números inteiros)
+console.log('resultado2 =' , num19 + num20);
+
+console.log();
+
+console.log('Exe2:');
+const num21 = 10;
+const num22 = parseFloat ('5.2');//Uso do parseFloat para transformar String em Number e somar números com casa decímal (números decímais)
+console.log('resultado3 =' , num21 + num22);
+
+console.log();
+
+const num23 = 10;
+const num24 = Number ('5.2');//Uso do Number para transformar String em Number (números inteiros ou decímais)
+console.log('resultado4 =' , num19 + num20);
+
 
 
 
