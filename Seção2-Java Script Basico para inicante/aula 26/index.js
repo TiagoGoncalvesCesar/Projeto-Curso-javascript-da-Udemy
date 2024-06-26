@@ -60,6 +60,22 @@ num13 = ((num13 * 100) + (num14 * 100)) / 100;
 console.log(num11);
 console.log(Number.isInteger(num11)); // deu true e resolve a imprecisão
 
+console.log();
+let num15 = 100;
+console.log(num15 / 0); // essa conta em outras linguagens daria erro,mas em javascripit não da erro 
+console.log(Number.isInteger(num15)); //deu verdadeiro(true)
+
+console.log();
+let num16 = 100;
+console.log(num16 / 0.000000001); 
+console.log(Number.isInteger(num15)); //deu verdadeiro(true)
+
+console.log();
+let num17 = 100;
+console.log(num17 / 0.000000000000000000000000000000000000001); // quanto mais zeros num17 for dividido,vai chegar um ponto que vai aparecer Infinity
+console.log(Number.isInteger(num17)); //deu verdadeiro(true)
+
+
 
 
 
