@@ -32,10 +32,10 @@ console.log('linha 30:', expressaoOr4);
 console.log();
 console.log('USando operador !(NOT):');
 const expressaoNot = true; // como tem expressão true, retorna true(verdadeiro)
-console.log('linha 34:',expressaoNot);
+console.log('linha 35:',expressaoNot);
 
 const expressaoNot1 = true; // como tem expressão true, mas usei o ponto de exclamação,que é operador de negação, retorna false(falso)
-console.log('linha 34:',!expressaoNot1);
+console.log('linha 38:',!expressaoNot1);
 
 const expressaoNot2 = false; // como tem expressão false, mas usei o ponto de exclamação,que é operador de negação, retorna true(verdadeiro)
 console.log('linha 41:',!expressaoNot2);
@@ -46,12 +46,12 @@ console.log('Exemplo de um banco de dados:');
 const usuario = 'Tiago'; // form que usuario digitou
 const senha = 123456; // form que usuário digitou
 const  vaiLogar = usuario === "Tiago" &&  senha === 123456; //vai retornar true porque o usuário digitou os dados corretos, usuário vai logar na conta
-console.log('linha 37:',vaiLogar);
+console.log('linha 49:',vaiLogar);
 
 const usuario1 = 'Tiago'; // form que usuario digitou
 const senha1 = 123456; // form que usuário digitou
 const  vaiLogar1 = usuario === "Tiago" &&  senha === 12345; // vai retornar false porque o usuário digitou os dados errados, usuário não vai logar
-console.log('linha 42:',vaiLogar1);
+console.log('linha 54:',vaiLogar1);
 
 
 
