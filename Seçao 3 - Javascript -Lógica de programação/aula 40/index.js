@@ -1,4 +1,4 @@
-// if, else if e else
+console.log('Parte 1: if, else if e else');
 /*
 Entre 0 e 11 = Bom dia
 Entre 12 e 17 = Boa tarde
