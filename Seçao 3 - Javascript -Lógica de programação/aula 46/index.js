@@ -20,34 +20,34 @@ exemplo dia da semana:
 */
 
 const data = new Date();
-console.log('linha 5:',data);
-console.log('linha 6:',data.toString());
+console.log('linha 23:',data);
+console.log('linha 24:',data.toString());
 
 console.log();
 const data1 = new Date(0); // 01/01/1979 Timestamp ou época unix
-console.log('linha 10:',data1);
+console.log('linha 28:',data1);
 
 console.log();
 const data2 = new Date(-1);
-console.log('linha 14:',data2);
+console.log('linha 32:',data2);
 
 console.log();
 const tresHoras = 60 * 60 * 3 * 1000;
 const umDia = 60 * 60 * 24 * 1000;
 const data3 = new Date(0  + tresHoras + umDia);
-console.log('linha 20:',data3.toString());
+console.log('linha 38:',data3.toString());
 
 console.log();
 const data4 = new Date(2019, 3, 20, 15, 14, 27, 500); // ano, mês, dia, hora, minuto, segundo, milésimo de segundo
-console.log('linha 24:',data4);
+console.log('linha 42:',data4);
 
 console.log();
 const data5 = new Date('2019-04-20 20:20:59'); // mostra a data digitada na String
-console.log('linha 36:',data5);
+console.log('linha 46:',data5);
 
 console.log();
 const data6 = new Date('20-04-2019 20:20:59'); // Sempre colocar na ordem -> ano, mês, dia ... para não ter data inválida
-console.log('linha 40:',data6);
+console.log('linha 50:',data6);
 
 console.log();
 const data7 = new Date('1985-03-08 19:35:45');
