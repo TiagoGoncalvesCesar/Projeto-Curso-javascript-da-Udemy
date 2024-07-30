@@ -4,14 +4,14 @@
 console.log('Usando LET:')
 let nome = 'Tiago'; // usando LET não posso reutilizar a variável declarada,mesmo que seja com valore diferente
 //let nome = 'Gonçalves' -> nessa linda teríamos erro
-console.log('linha 5:',nome);
+console.log('linha 7:',nome);
 
 console.log();
 
 console.log('Usando VAR:');
 var nome2 = 'Tiago';  // usando VAR posso reutilizar a variável declarada,mesmo que seja com valore diferente
 var nome2 = 'Gonçalves'; // aqui substituiu o valor "Tiago" por "Gonçalves"
-console.log('linha 12:',nome2);
+console.log('linha 14:',nome2);
 
 console.log();
 
@@ -24,7 +24,7 @@ if (verdadeira){
 }
 if (verdadeira){
     let nome3 = 'Gonçalves'; // estamos criando outra variável e não reutilizando dentro do escopo de bloco
-    console.log('linha 25:',nome3, nome2); // nesse caso, a variável "nome3", teve alteração de valor
+    console.log('linha 27:',nome3, nome2); // nesse caso, a variável "nome3", teve alteração de valor
 }
 
 if (verdadeira){
