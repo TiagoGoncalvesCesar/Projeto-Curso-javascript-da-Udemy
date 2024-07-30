@@ -20,7 +20,7 @@ let nome3 = 'Tiago';
 var nome2 = 'Gonçalves';
 
 if (verdadeira){
-    console.log('linha 21:',nome3, nome2); // aqui mostrou as variáveis com seus valores
+    console.log('linha 23:',nome3, nome2); // aqui mostrou as variáveis com seus valores
 }
 if (verdadeira){
     let nome3 = 'Gonçalves'; // estamos criando outra variável e não reutilizando dentro do escopo de bloco
