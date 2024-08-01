@@ -1,4 +1,4 @@
- // Aula atribuição via destruturação
+ // Aula atribuição via destruturação (Parte 1)
 
  let a = 'A';  // variável a receber o valor variável b
  let b = 'B'; // variável b receber o valor variável c
